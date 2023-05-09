@@ -1,0 +1,157 @@
+/*My colour palletter*/
+.set1{
+background-color:rgba(205, 180, 219, 1);
+background-color:rgba(255, 200, 221, 1)
+rgba(255, 175, 204, 1)
+rgba(189, 224, 254, 1)
+rgba(162, 210, 255, 1)
+}
+
+.set2{
+    background-color: rgba(38, 70, 83, 1);
+    background-color: rgba(42, 157, 143, 1);
+    background-color: rgba(233, 196, 106, 1);
+    background-color: rgba(244, 162, 97, 1);
+    background-color: rgba(231, 111, 81, 1);
+}
+/*My colour palette*/
+
+/*Home Begins Here*/
+body, html {
+    height: 100%;
+    margin: 0;
+  
+  }
+  
+  
+  /*Nav Bar starts here*/
+  #navbar{
+    overflow: hidden;
+    background-color: rgba(38, 70, 83, 1);
+    height: 50px;
+  }
+  #navbar a {
+    float: right;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #e6e0e0;
+    color: rgb(131, 50, 185);
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 1;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+ /*Nav Bar stops here*/
+ 
+ /*floating text begins*/
+.floating { 
+  animation-name: floating;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
+/* floating text ends*/
+
+/*Introduction begins here*/
+
+  .Intro{
+    background-color: rgba(231, 111, 81, 1);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  .Introtext{
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+  }
+
+  .hero-text button:hover {
+    background-color: #5e4c4c;
+    color: white;
+  }
+  /*Introduction ends here*/
+
+/*Home ends Here*/
+
+
+  /*About Begins Here*/
+  .about{
+    background-color:rgba(42, 157, 143, 1) ;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 30px;
+    font-size: 1.5em;
+  }
+  /*About ends Here*/
+
+  /*Works Begins Here*/
+  .works{
+    background-color: rgba(233, 196, 106, 1); ;
+  }
+  /*Works Ends Here*/
+  /*Feedback begins here*/
+  .feedback{
+    text-align: center;
+    background-color:rgba(205, 180, 219, 1) ;
+  }
+  .feedback input{
+    background-color:rgba(205, 180, 219, 1) ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom:3px black solid ;
+    width: 320px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    overflow: inherit;
+  }
+ .feedbackbtn{
+    background-color:rgba(205, 180, 219, 1) ;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 100px;
+    border: 2px black solid;
+  }
+  .feedbackbtn:hover{
+    background-color:rgb(147, 129, 158) ;
+    transition-duration: 600ms;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 100px;
+    border: 2px black solid;
+  }
+  /*Feedback ends here*/
+
+
